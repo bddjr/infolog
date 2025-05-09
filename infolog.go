@@ -7,7 +7,7 @@ import (
 
 // ln
 func Logln(prefix string, v ...any) {
-	log.Println("[" + prefix + "] " + fmt.Sprint(v...))
+	log.Print("[" + prefix + "] " + fmt.Sprintln(v...))
 }
 
 func INFOln(v ...any) {
